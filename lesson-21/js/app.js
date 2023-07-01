@@ -16,8 +16,3 @@ last.textContent = `this is also first class`;
 const links = document.querySelectorAll(`.first`);
 
 console.log(links);
-
-const linkz = [...links];
-linkz.forEach(function (item) {
-  item.style.color = `green`;
-});
