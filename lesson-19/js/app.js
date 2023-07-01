@@ -7,7 +7,7 @@ const second = first.nextSibling.nextSibling;
 second.style.color = `red`;
 console.log(second);
 
-//
+// previousSibling is  the same method but you will have white spaces with the list items
 const last = document.querySelector(`#last`);
 const third = last.previousElementSibling;
 console.log(third);
